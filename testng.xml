@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" >
+  <test name="Test_login_mobile">
+    <classes>
+      <class name="loginTests.loginMobtest"/>
+    </classes>
+  </test> <!-- Login with mobile tests -->
+  
+  <test name="Test_login_email">
+    <classes>
+      <class name="loginTests.loginEmailtest"/>
+    </classes>
+  </test> <!-- Login with email tests -->
+  
+  <test name="Test_signup">
+    <classes>
+      <class name="loginTests.signuptest"/>
+    </classes>
+  </test> <!-- Signup page tests -->
+  
+  <test name="Test_search_item">
+  	<classes>
+  		<class name="search.searchItemTest"/>
+  	</classes>
+  </test> <!-- Search feature tests -->
+  
+  <test name="Test_select_product">
+  	<classes>
+  		<class name="selectProductTests.SelectProductSomeOtherTestCases"/>
+  	</classes>
+  </test> <!-- Select product tests -->
+  
+  <test name="Test_select_product_noLogin">
+  	<classes>
+  		<class name="selectProductTests.SelectProductWithoutLogin"/>
+  	</classes>
+  </test> <!-- Select product without login -->
+  
+  <test name="Test_select_product_login">
+  	<classes>
+  		<class name="selectProductTests.SelectProductWithLogin"/>
+  	</classes>
+  </test> <!-- Select product with login -->
+  
+  <test name="Test_addtocart">
+  	<classes>
+  		<class name="addToCart.AddItemsTest"/>
+  	</classes> 
+  </test> <!-- Add to cart tests -->
+  
+  <test name="Test_checkout_page">
+  	<classes>
+  		<class name="checkout.checkoutTest"/>
+  	</classes>
+  </test> <!-- Checkout page tests -->
+  <test name="Test_compatibility">
+  	<classes>
+  		<class name="compatibility.compatibilityTest"/>
+  	</classes>
+  </test> <!-- Browser compatibility tests -->
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,1896 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 13 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\himan\eclipse-workspace\BigBasket_testing\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">10 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">48 methods, 13 failed,  3 skipped,  32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="loginTests.signuptest" class="method navigator-link" hash-for-method="Test1(9890685961,  ,  ,  )">Test1(9890685961,  ,  ,  )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="loginTests.signuptest" class="method navigator-link" hash-for-method="Test1(9890685961, Hello, Hello, himanshuyyt20@gmail.com)">Test1(9890685961, Hello, Hello, himanshuyyt20@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="loginTests.signuptest" class="method navigator-link" hash-for-method="Test1(9890685961, Hello, Hello, hello)">Test1(9890685961, Hello, Hello, hello)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="addToCart.AddItemsTest" class="method navigator-link" hash-for-method="addFeatureWhenZeroQuantityEntered">addFeatureWhenZeroQuantityEntered</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="checkout.checkoutTest" class="method navigator-link" hash-for-method="checkBasket">checkBasket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="checkout.checkoutTest" class="method navigator-link" hash-for-method="checkBasketLogin">checkBasketLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="checkout.checkoutTest" class="method navigator-link" hash-for-method="decreaseQty">decreaseQty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="checkout.checkoutTest" class="method navigator-link" hash-for-method="increaseQty">increaseQty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selectProductTests.SelectProductWithLogin" class="method navigator-link" hash-for-method="selectProductWithLoginWithEmptyProductName">selectProductWithLoginWithEmptyProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selectProductTests.SelectProductWithoutLogin" class="method navigator-link" hash-for-method="selectProductWithoutLoginWithEmptyProductName">selectProductWithoutLoginWithEmptyProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selectProductTests.SelectProductSomeOtherTestCases" class="method navigator-link" hash-for-method="toVerifyZeroQuantityEnterInProductPage">toVerifyZeroQuantityEnterInProductPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="search.searchItemTest" class="method navigator-link" hash-for-method="validateSearchPage3(orange)">validateSearchPage3(orange)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="search.searchItemTest" class="method navigator-link" hash-for-method="validateSearchPage3(Fruits)">validateSearchPage3(Fruits)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="loginTests.loginEmailtest" class="method navigator-link" hash-for-method="Test1">Test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="loginTests.loginEmailtest" class="method navigator-link" hash-for-method="Test1">Test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="loginTests.loginEmailtest" class="method navigator-link" hash-for-method="Test1">Test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="loginTests.loginMobtest" class="method navigator-link" hash-for-method="Test1(55555)">Test1(55555)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="loginTests.loginMobtest" class="method navigator-link" hash-for-method="Test1( )">Test1( )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="loginTests.loginMobtest" class="method navigator-link" hash-for-method="Test1(abcd)">Test1(abcd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="loginTests.loginMobtest" class="method navigator-link" hash-for-method="Test1(9890685961)">Test1(9890685961)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="addToCart.AddItemsTest" class="method navigator-link" hash-for-method="addFeatureWhenMoreThanSixItemsAdded">addFeatureWhenMoreThanSixItemsAdded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="addToCart.AddItemsTest" class="method navigator-link" hash-for-method="addOneMoreItemToCart">addOneMoreItemToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="checkout.checkoutTest" class="method navigator-link" hash-for-method="addProduct">addProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="compatibility.compatibilityTest" class="method navigator-link" hash-for-method="chromeTest">chromeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="compatibility.compatibilityTest" class="method navigator-link" hash-for-method="edgeTest">edgeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="compatibility.compatibilityTest" class="method navigator-link" hash-for-method="firefoxTest">firefoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="checkout.checkoutTest" class="method navigator-link" hash-for-method="removeItem">removeItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="addToCart.AddItemsTest" class="method navigator-link" hash-for-method="removeOneItemFromCart">removeOneItemFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selectProductTests.SelectProductSomeOtherTestCases" class="method navigator-link" hash-for-method="selectProductToCheckSortFeature">selectProductToCheckSortFeature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selectProductTests.SelectProductWithLogin" class="method navigator-link" hash-for-method="selectProductWithLoginWithExistingProductName">selectProductWithLoginWithExistingProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selectProductTests.SelectProductWithLogin" class="method navigator-link" hash-for-method="selectProductWithLoginWithInvalidProductName">selectProductWithLoginWithInvalidProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selectProductTests.SelectProductWithLogin" class="method navigator-link" hash-for-method="selectProductWithLoginWithSpellingMistakeInProductName">selectProductWithLoginWithSpellingMistakeInProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selectProductTests.SelectProductWithoutLogin" class="method navigator-link" hash-for-method="selectProductWithoutLoginWithExistingProductName">selectProductWithoutLoginWithExistingProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selectProductTests.SelectProductWithoutLogin" class="method navigator-link" hash-for-method="selectProductWithoutLoginWithInvalidProductName">selectProductWithoutLoginWithInvalidProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selectProductTests.SelectProductWithoutLogin" class="method navigator-link" hash-for-method="selectProductWithoutLoginWithSpellingMistakeInProductName">selectProductWithoutLoginWithSpellingMistakeInProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="checkout.checkoutTest" class="method navigator-link" hash-for-method="testPromo">testPromo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="selectProductTests.SelectProductSomeOtherTestCases" class="method navigator-link" hash-for-method="toCheckScrollFeatureInProductPage">toCheckScrollFeatureInProductPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="addToCart.AddItemsTest" class="method navigator-link" hash-for-method="validateAddItemsToCartFeature">validateAddItemsToCartFeature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="search.searchItemTest" class="method navigator-link" hash-for-method="validateSearchPage(orange)">validateSearchPage(orange)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="search.searchItemTest" class="method navigator-link" hash-for-method="validateSearchPage(Fruits)">validateSearchPage(Fruits)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="search.searchItemTest" class="method navigator-link" hash-for-method="validateSearchPage(Apple)">validateSearchPage(Apple)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="search.searchItemTest" class="method navigator-link" hash-for-method="validateSearchPage1(skandksdnsds)">validateSearchPage1(skandksdnsds)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="search.searchItemTest" class="method navigator-link" hash-for-method="validateSearchPage1(asdksndsn)">validateSearchPage1(asdksndsn)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="search.searchItemTest" class="method navigator-link" hash-for-method="validateSearchPage1(akksdkkmmsjds)">validateSearchPage1(akksdkkmmsjds)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="search.searchItemTest" class="method navigator-link" hash-for-method="validateSearchPage3(Apple)">validateSearchPage3(Apple)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="search.searchItemTest" class="method navigator-link" hash-for-method="validateSearchPage4(skandksdnsds)">validateSearchPage4(skandksdnsds)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="search.searchItemTest" class="method navigator-link" hash-for-method="validateSearchPage4(asdksndsn)">validateSearchPage4(asdksndsn)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="search.searchItemTest" class="method navigator-link" hash-for-method="validateSearchPage4(akksdkkmmsjds)">validateSearchPage4(akksdkkmmsjds)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">addToCart.AddItemsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addFeatureWhenZeroQuantityEntered">
+                  </a> <!-- addFeatureWhenZeroQuantityEntered -->
+                  <span class="method-name">addFeatureWhenZeroQuantityEntered</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [] but found [a]
+	at addToCart.AddItemsTest.addFeatureWhenZeroQuantityEntered(AddItemsTest.java:57)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selectProductTests.SelectProductWithLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProductWithLoginWithEmptyProductName">
+                  </a> <!-- selectProductWithLoginWithEmptyProductName -->
+                  <span class="method-name">selectProductWithLoginWithEmptyProductName</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Page Not Found | bigbasket.com] but found [Online Grocery Shopping and Online Supermarket in India - bigbasket]
+	at selectProductTests.SelectProductWithLogin.selectProductWithLoginWithEmptyProductName(SelectProductWithLogin.java:90)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">search.searchItemTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchPage3(orange)">
+                  </a> <!-- validateSearchPage3(orange) -->
+                  <span class="method-name">validateSearchPage3</span>
+                  <span class="parameters">(orange)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;headerControllerId&quot;]/header/div/div/div/div/ul/li[3]/ul/li[2]/span[2]/a&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SUPERCOMPUTER&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\himan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 57b5ce1cafc57c3cdbb0b83ec3ac5417
+*** Element info: {Using=xpath, value=//*[@id=&quot;headerControllerId&quot;]/header/div/div/div/div/ul/li[3]/ul/li[2]/span[2]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at search.SearchItemPage.clickOnLoginButton(SearchItemPage.java:50)
+	at search.searchItemTest.validateSearchPage3(searchItemTest.java:73)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchPage3(Fruits)">
+                  </a> <!-- validateSearchPage3(Fruits) -->
+                  <span class="method-name">validateSearchPage3</span>
+                  <span class="parameters">(Fruits)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;headerControllerId&quot;]/header/div/div/div/div/ul/li[3]/ul/li[2]/span[2]/a&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SUPERCOMPUTER&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\himan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 57b5ce1cafc57c3cdbb0b83ec3ac5417
+*** Element info: {Using=xpath, value=//*[@id=&quot;headerControllerId&quot;]/header/div/div/div/div/ul/li[3]/ul/li[2]/span[2]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at search.SearchItemPage.clickOnLoginButton(SearchItemPage.java:50)
+	at search.searchItemTest.validateSearchPage3(searchItemTest.java:73)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selectProductTests.SelectProductWithoutLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProductWithoutLoginWithEmptyProductName">
+                  </a> <!-- selectProductWithoutLoginWithEmptyProductName -->
+                  <span class="method-name">selectProductWithoutLoginWithEmptyProductName</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Page Not Found | bigbasket.com] but found [Online Grocery Shopping and Online Supermarket in India - bigbasket]
+	at selectProductTests.SelectProductWithoutLogin.selectProductWithoutLoginWithEmptyProductName(SelectProductWithoutLogin.java:84)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">checkout.checkoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBasket">
+                  </a> <!-- checkBasket -->
+                  <span class="method-name">checkBasket</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@qa=&quot;viewBasketMB&quot;]&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SUPERCOMPUTER&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\himan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c4da43f2e3cef9c5e6eb388a04ec27c5
+*** Element info: {Using=xpath, value=//button[@qa=&quot;viewBasketMB&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at checkout.factoryClass.clickBasketProceed(factoryClass.java:99)
+	at checkout.checkoutTest.checkBasket(checkoutTest.java:37)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBasketLogin">
+                  </a> <!-- checkBasketLogin -->
+                  <span class="method-name">checkBasketLogin</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=104.0.5112.102)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SUPERCOMPUTER&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\himan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c4da43f2e3cef9c5e6eb388a04ec27c5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at checkout.factoryClass.clickBasketProceed(factoryClass.java:99)
+	at checkout.checkoutTest.checkBasketLogin(checkoutTest.java:52)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="decreaseQty">
+                  </a> <!-- decreaseQty -->
+                  <span class="method-name">decreaseQty</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;id_prow_10000072&quot;]/ul/li[4]/div/button[1]&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SUPERCOMPUTER&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\himan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c4da43f2e3cef9c5e6eb388a04ec27c5
+*** Element info: {Using=xpath, value=//*[@id=&quot;id_prow_10000072&quot;]/ul/li[4]/div/button[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at checkout.factoryClass.decQuantity(factoryClass.java:111)
+	at checkout.checkoutTest.decreaseQty(checkoutTest.java:74)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="increaseQty">
+                  </a> <!-- increaseQty -->
+                  <span class="method-name">increaseQty</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;id_prow_10000072&quot;]/ul/li[4]/div/button[1]&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SUPERCOMPUTER&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\himan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c4da43f2e3cef9c5e6eb388a04ec27c5
+*** Element info: {Using=xpath, value=//*[@id=&quot;id_prow_10000072&quot;]/ul/li[4]/div/button[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at checkout.factoryClass.decQuantity(factoryClass.java:111)
+	at checkout.checkoutTest.increaseQty(checkoutTest.java:85)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">loginTests.signuptest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1(9890685961,  ,  ,  )">
+                  </a> <!-- Test1(9890685961,  ,  ,  ) -->
+                  <span class="method-name">Test1</span>
+                  <span class="parameters">(9890685961,  ,  ,  )</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#fname&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SUPERCOMPUTER&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\himan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49652}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d8a970539685491f9ea3b5954dc2f5da
+*** Element info: {Using=id, value=fname}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
+	at loginTests.factoryClass.setFname(factoryClass.java:62)
+	at loginTests.signuptest.Test1(signuptest.java:34)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1(9890685961, Hello, Hello, himanshuyyt20@gmail.com)">
+                  </a> <!-- Test1(9890685961, Hello, Hello, himanshuyyt20@gmail.com) -->
+                  <span class="method-name">Test1</span>
+                  <span class="parameters">(9890685961, Hello, Hello, himanshuyyt20@gmail.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=104.0.5112.102)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SUPERCOMPUTER&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\himan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49652}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d8a970539685491f9ea3b5954dc2f5da
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
+	at loginTests.factoryClass.setSignupMob(factoryClass.java:54)
+	at loginTests.signuptest.Test1(signuptest.java:31)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1(9890685961, Hello, Hello, hello)">
+                  </a> <!-- Test1(9890685961, Hello, Hello, hello) -->
+                  <span class="method-name">Test1</span>
+                  <span class="parameters">(9890685961, Hello, Hello, hello)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=104.0.5112.102)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SUPERCOMPUTER&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\himan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49652}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d8a970539685491f9ea3b5954dc2f5da
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
+	at loginTests.factoryClass.setSignupMob(factoryClass.java:54)
+	at loginTests.signuptest.Test1(signuptest.java:31)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selectProductTests.SelectProductSomeOtherTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toVerifyZeroQuantityEnterInProductPage">
+                  </a> <!-- toVerifyZeroQuantityEnterInProductPage -->
+                  <span class="method-name">toVerifyZeroQuantityEnterInProductPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at selectProductTests.SelectProductSomeOtherTestCases.toVerifyZeroQuantityEnterInProductPage(SelectProductSomeOtherTestCases.java:77)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">loginTests.loginEmailtest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1">
+                  </a> <!-- Test1 -->
+                  <span class="method-name">Test1</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&quot;btn btn-default&quot;]&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SUPERCOMPUTER&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\himan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed9bc7276ac6c86ab87fce06283bfc14
+*** Element info: {Using=xpath, value=//button[@class=&quot;btn btn-default&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at loginTests.factoryClass.clickEmail(factoryClass.java:78)
+	at loginTests.loginEmailtest.beforeTest(loginEmailtest.java:65)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1">
+                  </a> <!-- Test1 -->
+                  <span class="method-name">Test1</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&quot;btn btn-default&quot;]&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SUPERCOMPUTER&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\himan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed9bc7276ac6c86ab87fce06283bfc14
+*** Element info: {Using=xpath, value=//button[@class=&quot;btn btn-default&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at loginTests.factoryClass.clickEmail(factoryClass.java:78)
+	at loginTests.loginEmailtest.beforeTest(loginEmailtest.java:65)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1">
+                  </a> <!-- Test1 -->
+                  <span class="method-name">Test1</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&quot;btn btn-default&quot;]&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SUPERCOMPUTER&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\himan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed9bc7276ac6c86ab87fce06283bfc14
+*** Element info: {Using=xpath, value=//button[@class=&quot;btn btn-default&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at loginTests.factoryClass.clickEmail(factoryClass.java:78)
+	at loginTests.loginEmailtest.beforeTest(loginEmailtest.java:65)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">addToCart.AddItemsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addFeatureWhenMoreThanSixItemsAdded">
+                  </a> <!-- addFeatureWhenMoreThanSixItemsAdded -->
+                  <span class="method-name">addFeatureWhenMoreThanSixItemsAdded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addOneMoreItemToCart">
+                  </a> <!-- addOneMoreItemToCart -->
+                  <span class="method-name">addOneMoreItemToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeOneItemFromCart">
+                  </a> <!-- removeOneItemFromCart -->
+                  <span class="method-name">removeOneItemFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddItemsToCartFeature">
+                  </a> <!-- validateAddItemsToCartFeature -->
+                  <span class="method-name">validateAddItemsToCartFeature</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selectProductTests.SelectProductWithLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProductWithLoginWithExistingProductName">
+                  </a> <!-- selectProductWithLoginWithExistingProductName -->
+                  <span class="method-name">selectProductWithLoginWithExistingProductName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProductWithLoginWithInvalidProductName">
+                  </a> <!-- selectProductWithLoginWithInvalidProductName -->
+                  <span class="method-name">selectProductWithLoginWithInvalidProductName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProductWithLoginWithSpellingMistakeInProductName">
+                  </a> <!-- selectProductWithLoginWithSpellingMistakeInProductName -->
+                  <span class="method-name">selectProductWithLoginWithSpellingMistakeInProductName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">search.searchItemTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchPage(orange)">
+                  </a> <!-- validateSearchPage(orange) -->
+                  <span class="method-name">validateSearchPage</span>
+                  <span class="parameters">(orange)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchPage(Fruits)">
+                  </a> <!-- validateSearchPage(Fruits) -->
+                  <span class="method-name">validateSearchPage</span>
+                  <span class="parameters">(Fruits)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchPage(Apple)">
+                  </a> <!-- validateSearchPage(Apple) -->
+                  <span class="method-name">validateSearchPage</span>
+                  <span class="parameters">(Apple)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchPage1(skandksdnsds)">
+                  </a> <!-- validateSearchPage1(skandksdnsds) -->
+                  <span class="method-name">validateSearchPage1</span>
+                  <span class="parameters">(skandksdnsds)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchPage1(asdksndsn)">
+                  </a> <!-- validateSearchPage1(asdksndsn) -->
+                  <span class="method-name">validateSearchPage1</span>
+                  <span class="parameters">(asdksndsn)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchPage1(akksdkkmmsjds)">
+                  </a> <!-- validateSearchPage1(akksdkkmmsjds) -->
+                  <span class="method-name">validateSearchPage1</span>
+                  <span class="parameters">(akksdkkmmsjds)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchPage3(Apple)">
+                  </a> <!-- validateSearchPage3(Apple) -->
+                  <span class="method-name">validateSearchPage3</span>
+                  <span class="parameters">(Apple)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchPage4(skandksdnsds)">
+                  </a> <!-- validateSearchPage4(skandksdnsds) -->
+                  <span class="method-name">validateSearchPage4</span>
+                  <span class="parameters">(skandksdnsds)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchPage4(asdksndsn)">
+                  </a> <!-- validateSearchPage4(asdksndsn) -->
+                  <span class="method-name">validateSearchPage4</span>
+                  <span class="parameters">(asdksndsn)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchPage4(akksdkkmmsjds)">
+                  </a> <!-- validateSearchPage4(akksdkkmmsjds) -->
+                  <span class="method-name">validateSearchPage4</span>
+                  <span class="parameters">(akksdkkmmsjds)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selectProductTests.SelectProductWithoutLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProductWithoutLoginWithExistingProductName">
+                  </a> <!-- selectProductWithoutLoginWithExistingProductName -->
+                  <span class="method-name">selectProductWithoutLoginWithExistingProductName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProductWithoutLoginWithInvalidProductName">
+                  </a> <!-- selectProductWithoutLoginWithInvalidProductName -->
+                  <span class="method-name">selectProductWithoutLoginWithInvalidProductName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProductWithoutLoginWithSpellingMistakeInProductName">
+                  </a> <!-- selectProductWithoutLoginWithSpellingMistakeInProductName -->
+                  <span class="method-name">selectProductWithoutLoginWithSpellingMistakeInProductName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">checkout.checkoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProduct">
+                  </a> <!-- addProduct -->
+                  <span class="method-name">addProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItem">
+                  </a> <!-- removeItem -->
+                  <span class="method-name">removeItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPromo">
+                  </a> <!-- testPromo -->
+                  <span class="method-name">testPromo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">loginTests.loginMobtest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1(55555)">
+                  </a> <!-- Test1(55555) -->
+                  <span class="method-name">Test1</span>
+                  <span class="parameters">(55555)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1( )">
+                  </a> <!-- Test1( ) -->
+                  <span class="method-name">Test1</span>
+                  <span class="parameters">( )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1(abcd)">
+                  </a> <!-- Test1(abcd) -->
+                  <span class="method-name">Test1</span>
+                  <span class="parameters">(abcd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1(9890685961)">
+                  </a> <!-- Test1(9890685961) -->
+                  <span class="method-name">Test1</span>
+                  <span class="parameters">(9890685961)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">compatibility.compatibilityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chromeTest">
+                  </a> <!-- chromeTest -->
+                  <span class="method-name">chromeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="edgeTest">
+                  </a> <!-- edgeTest -->
+                  <span class="method-name">edgeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firefoxTest">
+                  </a> <!-- firefoxTest -->
+                  <span class="method-name">firefoxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">selectProductTests.SelectProductSomeOtherTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProductToCheckSortFeature">
+                  </a> <!-- selectProductToCheckSortFeature -->
+                  <span class="method-name">selectProductToCheckSortFeature</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCheckScrollFeatureInProductPage">
+                  </a> <!-- toCheckScrollFeatureInProductPage -->
+                  <span class="method-name">toCheckScrollFeatureInProductPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\himan\eclipse-workspace\BigBasket_testing\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test_login_mobile&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;loginTests.loginMobtest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_login_mobile --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test_login_email&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;loginTests.loginEmailtest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_login_email --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test_signup&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;loginTests.signuptest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_signup --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test_search_item&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;search.searchItemTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_search_item --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test_select_product&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;selectProductTests.SelectProductSomeOtherTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_select_product --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test_select_product_noLogin&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;selectProductTests.SelectProductWithoutLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_select_product_noLogin --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test_select_product_login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;selectProductTests.SelectProductWithLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_select_product_login --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test_addtocart&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;addToCart.AddItemsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_addtocart --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test_checkout_page&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;checkout.checkoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_checkout_page --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test_compatibility&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;compatibility.compatibilityTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_compatibility --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test_login_mobile (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test_login_email (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test_signup (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test_search_item (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test_select_product (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test_select_product_noLogin (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test_select_product_login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test_addtocart (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test_checkout_page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test_compatibility (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(48);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'selectProductWithLoginWithSpellingMistakeInProductName')
+data.setCell(0, 2, 'selectProductTests.SelectProductWithLogin')
+data.setCell(0, 3, 124547);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateSearchPage3')
+data.setCell(1, 2, 'search.searchItemTest')
+data.setCell(1, 3, 34933);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectProductWithLoginWithExistingProductName')
+data.setCell(2, 2, 'selectProductTests.SelectProductWithLogin')
+data.setCell(2, 3, 34881);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkBasketLogin')
+data.setCell(3, 2, 'checkout.checkoutTest')
+data.setCell(3, 3, 31861);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test1')
+data.setCell(4, 2, 'loginTests.loginMobtest')
+data.setCell(4, 3, 30411);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateSearchPage3')
+data.setCell(5, 2, 'search.searchItemTest')
+data.setCell(5, 3, 30062);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateSearchPage3')
+data.setCell(6, 2, 'search.searchItemTest')
+data.setCell(6, 3, 30055);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'decreaseQty')
+data.setCell(7, 2, 'checkout.checkoutTest')
+data.setCell(7, 3, 18605);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'increaseQty')
+data.setCell(8, 2, 'checkout.checkoutTest')
+data.setCell(8, 3, 17656);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'toCheckScrollFeatureInProductPage')
+data.setCell(9, 2, 'selectProductTests.SelectProductSomeOtherTestCases')
+data.setCell(9, 3, 16486);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'selectProductWithoutLoginWithSpellingMistakeInProductName')
+data.setCell(10, 2, 'selectProductTests.SelectProductWithoutLogin')
+data.setCell(10, 3, 14389);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'selectProductToCheckSortFeature')
+data.setCell(11, 2, 'selectProductTests.SelectProductSomeOtherTestCases')
+data.setCell(11, 3, 14387);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'toVerifyZeroQuantityEnterInProductPage')
+data.setCell(12, 2, 'selectProductTests.SelectProductSomeOtherTestCases')
+data.setCell(12, 3, 13640);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'firefoxTest')
+data.setCell(13, 2, 'compatibility.compatibilityTest')
+data.setCell(13, 3, 12759);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'edgeTest')
+data.setCell(14, 2, 'compatibility.compatibilityTest')
+data.setCell(14, 3, 10642);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testPromo')
+data.setCell(15, 2, 'checkout.checkoutTest')
+data.setCell(15, 3, 10448);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Test1')
+data.setCell(16, 2, 'loginTests.signuptest')
+data.setCell(16, 3, 10395);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Test1')
+data.setCell(17, 2, 'loginTests.signuptest')
+data.setCell(17, 3, 10133);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Test1')
+data.setCell(18, 2, 'loginTests.signuptest')
+data.setCell(18, 3, 10130);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'chromeTest')
+data.setCell(19, 2, 'compatibility.compatibilityTest')
+data.setCell(19, 3, 9738);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'selectProductWithoutLoginWithExistingProductName')
+data.setCell(20, 2, 'selectProductTests.SelectProductWithoutLogin')
+data.setCell(20, 3, 9666);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'removeItem')
+data.setCell(21, 2, 'checkout.checkoutTest')
+data.setCell(21, 3, 9446);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkBasket')
+data.setCell(22, 2, 'checkout.checkoutTest')
+data.setCell(22, 3, 7204);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'validateSearchPage')
+data.setCell(23, 2, 'search.searchItemTest')
+data.setCell(23, 3, 5782);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'selectProductWithoutLoginWithInvalidProductName')
+data.setCell(24, 2, 'selectProductTests.SelectProductWithoutLogin')
+data.setCell(24, 3, 5663);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'validateSearchPage')
+data.setCell(25, 2, 'search.searchItemTest')
+data.setCell(25, 3, 4852);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'selectProductWithLoginWithInvalidProductName')
+data.setCell(26, 2, 'selectProductTests.SelectProductWithLogin')
+data.setCell(26, 3, 4690);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'validateSearchPage1')
+data.setCell(27, 2, 'search.searchItemTest')
+data.setCell(27, 3, 4120);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'validateSearchPage')
+data.setCell(28, 2, 'search.searchItemTest')
+data.setCell(28, 3, 4061);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'validateSearchPage4')
+data.setCell(29, 2, 'search.searchItemTest')
+data.setCell(29, 3, 3944);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'addProduct')
+data.setCell(30, 2, 'checkout.checkoutTest')
+data.setCell(30, 3, 3541);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'validateSearchPage1')
+data.setCell(31, 2, 'search.searchItemTest')
+data.setCell(31, 3, 2802);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'selectProductWithLoginWithEmptyProductName')
+data.setCell(32, 2, 'selectProductTests.SelectProductWithLogin')
+data.setCell(32, 3, 2774);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'selectProductWithoutLoginWithEmptyProductName')
+data.setCell(33, 2, 'selectProductTests.SelectProductWithoutLogin')
+data.setCell(33, 3, 2256);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'validateSearchPage4')
+data.setCell(34, 2, 'search.searchItemTest')
+data.setCell(34, 3, 2207);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'validateSearchPage1')
+data.setCell(35, 2, 'search.searchItemTest')
+data.setCell(35, 3, 2093);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'validateSearchPage4')
+data.setCell(36, 2, 'search.searchItemTest')
+data.setCell(36, 3, 2054);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'addFeatureWhenZeroQuantityEntered')
+data.setCell(37, 2, 'addToCart.AddItemsTest')
+data.setCell(37, 3, 285);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'addOneMoreItemToCart')
+data.setCell(38, 2, 'addToCart.AddItemsTest')
+data.setCell(38, 3, 184);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'validateAddItemsToCartFeature')
+data.setCell(39, 2, 'addToCart.AddItemsTest')
+data.setCell(39, 3, 182);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'addFeatureWhenMoreThanSixItemsAdded')
+data.setCell(40, 2, 'addToCart.AddItemsTest')
+data.setCell(40, 3, 143);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'Test1')
+data.setCell(41, 2, 'loginTests.loginMobtest')
+data.setCell(41, 3, 129);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'removeOneItemFromCart')
+data.setCell(42, 2, 'addToCart.AddItemsTest')
+data.setCell(42, 3, 118);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'Test1')
+data.setCell(43, 2, 'loginTests.loginMobtest')
+data.setCell(43, 3, 67);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'Test1')
+data.setCell(44, 2, 'loginTests.loginMobtest')
+data.setCell(44, 3, 57);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'Test1')
+data.setCell(45, 2, 'loginTests.loginEmailtest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'Test1')
+data.setCell(46, 2, 'loginTests.loginEmailtest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'Test1')
+data.setCell(47, 2, 'loginTests.loginEmailtest')
+data.setCell(47, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">loginTests.loginMobtest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test1( )</span>
+                <span class="method-start">8144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8288 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test1(abcd)</span>
+                <span class="method-start">8324 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8394 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test1(55555)</span>
+                <span class="method-start">8449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8509 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test1(9890685961)</span>
+                <span class="method-start">8550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">38966 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">loginTests.loginEmailtest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">41439 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">loginTests.signuptest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">54307 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test1(9890685961,  ,  ,  )</span>
+                <span class="method-start">60202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test1(9890685961, Hello, Hello, hello)</span>
+                <span class="method-start">70602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test1(9890685961, Hello, Hello, himanshuyyt20@gmail.com)</span>
+                <span class="method-start">80736 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">90872 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">search.searchItemTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">93325 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">validateSearchPage(Apple)</span>
+                <span class="method-start">100217 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateSearchPage(orange)</span>
+                <span class="method-start">105072 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateSearchPage(Fruits)</span>
+                <span class="method-start">110857 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateSearchPage1(akksdkkmmsjds)</span>
+                <span class="method-start">114926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateSearchPage1(skandksdnsds)</span>
+                <span class="method-start">119049 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateSearchPage1(asdksndsn)</span>
+                <span class="method-start">121144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateSearchPage3(Apple)</span>
+                <span class="method-start">123949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateSearchPage3(orange)</span>
+                <span class="method-start">158885 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateSearchPage3(Fruits)</span>
+                <span class="method-start">188950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateSearchPage4(akksdkkmmsjds)</span>
+                <span class="method-start">219009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateSearchPage4(skandksdnsds)</span>
+                <span class="method-start">222955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateSearchPage4(asdksndsn)</span>
+                <span class="method-start">225012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">227222 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selectProductTests.SelectProductSomeOtherTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">227420 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">selectProductToCheckSortFeature</span>
+                <span class="method-start">235014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">toVerifyZeroQuantityEnterInProductPage</span>
+                <span class="method-start">249404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">toCheckScrollFeatureInProductPage</span>
+                <span class="method-start">263046 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">279535 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selectProductTests.SelectProductWithoutLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">279733 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectProductWithoutLoginWithEmptyProductName</span>
+                <span class="method-start">287887 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectProductWithoutLoginWithExistingProductName</span>
+                <span class="method-start">290147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectProductWithoutLoginWithInvalidProductName</span>
+                <span class="method-start">299816 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectProductWithoutLoginWithSpellingMistakeInProductName</span>
+                <span class="method-start">305483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">319874 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selectProductTests.SelectProductWithLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">322345 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">selectProductWithLoginWithExistingProductName</span>
+                <span class="method-start">328336 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectProductWithLoginWithSpellingMistakeInProductName</span>
+                <span class="method-start">363221 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectProductWithLoginWithEmptyProductName</span>
+                <span class="method-start">487771 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectProductWithLoginWithInvalidProductName</span>
+                <span class="method-start">490549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">495242 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">addToCart.AddItemsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">495441 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">496436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addFeatureWhenZeroQuantityEntered</span>
+                <span class="method-start">501107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">501396 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addFeatureWhenMoreThanSixItemsAdded</span>
+                <span class="method-start">503361 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">503508 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddItemsToCartFeature</span>
+                <span class="method-start">505383 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">505567 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addOneMoreItemToCart</span>
+                <span class="method-start">507713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">507900 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeOneItemFromCart</span>
+                <span class="method-start">510058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">510179 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">checkout.checkoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">510327 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkBasket</span>
+                <span class="method-start">521369 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkBasketLogin</span>
+                <span class="method-start">528576 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProduct</span>
+                <span class="method-start">560440 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">decreaseQty</span>
+                <span class="method-start">563984 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">increaseQty</span>
+                <span class="method-start">582592 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPromo</span>
+                <span class="method-start">600250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeItem</span>
+                <span class="method-start">610702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">620150 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">compatibility.compatibilityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">622590 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">chromeTest</span>
+                <span class="method-start">622592 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">632333 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">edgeTest</span>
+                <span class="method-start">632513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">643159 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">firefoxTest</span>
+                <span class="method-start">643376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">656138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">657191 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">loginTests.loginEmailtest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test1</span>
+                <span class="method-start">-1662102163488 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test1</span>
+                <span class="method-start">-1662102163488 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test1</span>
+                <span class="method-start">-1662102163488 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

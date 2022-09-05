@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_login_email(failed)">
+    <classes>
+      <class name="loginTests.loginEmailtest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- loginTests.loginEmailtest -->
+    </classes>
+  </test> <!-- Test_login_email(failed) -->
+  <test thread-count="5" name="Test_signup(failed)">
+    <classes>
+      <class name="loginTests.signuptest">
+        <methods>
+          <include name="Test1" invocation-numbers="0 1 2"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- loginTests.signuptest -->
+    </classes>
+  </test> <!-- Test_signup(failed) -->
+  <test thread-count="5" name="Test_search_item(failed)">
+    <classes>
+      <class name="search.searchItemTest">
+        <methods>
+          <include name="validateSearchPage3" invocation-numbers="1 2"/>
+          <include name="afterTest"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- search.searchItemTest -->
+    </classes>
+  </test> <!-- Test_search_item(failed) -->
+  <test thread-count="5" name="Test_select_product(failed)">
+    <classes>
+      <class name="selectProductTests.SelectProductSomeOtherTestCases">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="toVerifyZeroQuantityEnterInProductPage"/>
+        </methods>
+      </class> <!-- selectProductTests.SelectProductSomeOtherTestCases -->
+    </classes>
+  </test> <!-- Test_select_product(failed) -->
+  <test thread-count="5" name="Test_select_product_noLogin(failed)">
+    <classes>
+      <class name="selectProductTests.SelectProductWithoutLogin">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="selectProductWithoutLoginWithEmptyProductName"/>
+        </methods>
+      </class> <!-- selectProductTests.SelectProductWithoutLogin -->
+    </classes>
+  </test> <!-- Test_select_product_noLogin(failed) -->
+  <test thread-count="5" name="Test_select_product_login(failed)">
+    <classes>
+      <class name="selectProductTests.SelectProductWithLogin">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="selectProductWithLoginWithEmptyProductName"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- selectProductTests.SelectProductWithLogin -->
+    </classes>
+  </test> <!-- Test_select_product_login(failed) -->
+  <test thread-count="5" name="Test_addtocart(failed)">
+    <classes>
+      <class name="addToCart.AddItemsTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="addFeatureWhenZeroQuantityEntered"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- addToCart.AddItemsTest -->
+    </classes>
+  </test> <!-- Test_addtocart(failed) -->
+  <test thread-count="5" name="Test_checkout_page(failed)">
+    <classes>
+      <class name="checkout.checkoutTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="checkBasket"/>
+          <include name="increaseQty"/>
+          <include name="afterTest"/>
+          <include name="decreaseQty"/>
+          <include name="checkBasketLogin"/>
+        </methods>
+      </class> <!-- checkout.checkoutTest -->
+    </classes>
+  </test> <!-- Test_checkout_page(failed) -->
+</suite> <!-- Failed suite [Suite] -->
